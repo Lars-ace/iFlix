@@ -1,0 +1,140 @@
+
+.image-box{
+    position: relative;
+}
+
+.bg .overlay{
+    background-position: center center;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.bg{
+    position: absolute;
+    z-index: -1;
+}
+
+.bg img{
+    background-size: cover;
+    height:700px;
+    width:1500px
+}
+
+.overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+.logo{
+    position: relative;
+    float: left;
+    padding: 30px 50px;
+    z-index: 2;
+}
+.login{
+    position: relative;
+    float: right;
+    padding: 30px 50px;
+    z-index: 2;
+}   
+button{
+    border: none;
+    width: 100px;
+    height: 40px;
+    background-color: #e50914;
+    border-radius: 5px;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.text-area{
+    position: relative;
+    top: 130px;
+    text-align: center;
+    z-index: 2; 
+    clear: both;  
+
+}
+h1,
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-size: 55px;
+    font-weight: 600;
+}
+p{
+    font-size: 24px;
+}
+
+input{
+    background-color: white;
+    width: 500px;
+    height: 70px;
+    padding: 10px;
+    border: none;
+
+}
+
+/**All browsers' placeholder customization**/
+
+::-webkit-input-placeholder {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+  } 
+:-ms-input-placeholder {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+  }
+:-moz-placeholder {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+  }
+::-moz-placeholder {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+  }
+
+  .button1{
+    border: none;
+    width: 300px;
+    min-width: 74px;
+    height: 70px;
+    background-color: #e50914;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 30px;
+  }
+  h3{
+    font-size: 17px;
+    font-weight: 100;
+  }
+  .button1 .fa{
+    font-size: 24px;
+  }
+  .overlay1{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    top: 100px;
+    left: 450px;
+}
+h2{
+    padding: 10px;
+}
